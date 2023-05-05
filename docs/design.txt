@@ -1,0 +1,22 @@
+
+
+Modules :
+
+1) ReadFile :
+    to read the files and return the array of words.
+
+2) AddIntoIndexArray :
+    this will take indextArray , excludeArray , current page words array and page number as an arguments
+    and it will perform operations :
+
+    * it will cheack that given words are present in exclude array or not if present then do not add them.
+    * then cheack that given word is already exits in indexArray if exits then update in indexArray array
+       if not exits then push the word in indexArray with current page number.
+    * return the indexArray.
+
+3) Compare : 
+    this is made to compare words with indexArray and excludeArray.
+
+4) WriteFile : 
+    to write the final result in index.txt file
+ 
